@@ -12,6 +12,9 @@ Node.js API Gateway (Render): https://neuromancer-1.onrender.com
 
 Python AI Core (Render): https://neuromancer.onrender.com
 
+
+![Neuromancer Dashboard Overview](assets/dashboard.png)
+
 🧠 System Architecture
 
 This project is built using a modern Microservices approach, completely separating the user interface, the security routing, and the heavy machine learning computations.
