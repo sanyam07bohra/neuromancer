@@ -32,7 +32,7 @@ app.post('/api/verify', async (req, res) => {
         // 3. Forward the clean data to the Python AI Engine (Running on Port 8000)
         console.log('[*] Payload verified. Routing to Python AI Core...');
         
-        const aiResponse = await axios.post('https://neuromancer.onrender.com', {
+        const aiResponse = await axios.post('https://neuromancer.onrender.com/api/v1/analyze', {
             features: sensorData
         });
 
