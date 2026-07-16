@@ -30,7 +30,7 @@ export default function App() {
     setError(null);
     
     try {
-      const response = await fetch('https://neuromancer-1.onrender.com', {
+        const response = await fetch('https://neuromancer-1.onrender.com/api/verify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ features: payload })
